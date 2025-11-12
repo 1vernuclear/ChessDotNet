@@ -1,0 +1,16 @@
+@page "/"
+
+<PageTitle>Chess Prototype</PageTitle>
+
+<h1>Interactive Chessboard Prototype</h1>
+
+<Chessboard Fen="rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1"
+            Orientation="White"
+            OnMove="HandleMove" />
+
+@code {
+    private void HandleMove(MoveEventArgs e) {
+        // Log the move for now (view in browser console or debug); expand later for validation/multiplayer
+        Console.WriteLine($"Move from {e.From} to {e.To}");
+    }
+}

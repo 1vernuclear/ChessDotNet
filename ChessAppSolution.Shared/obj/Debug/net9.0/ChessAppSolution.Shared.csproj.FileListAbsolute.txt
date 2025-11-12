@@ -1,0 +1,11 @@
+C:\Users\emil1\OneDrive\Documents\Chess\ChessAppSolution\ChessAppSolution.Shared\bin\Debug\net9.0\ChessAppSolution.Shared.deps.json
+C:\Users\emil1\OneDrive\Documents\Chess\ChessAppSolution\ChessAppSolution.Shared\bin\Debug\net9.0\ChessAppSolution.Shared.dll
+C:\Users\emil1\OneDrive\Documents\Chess\ChessAppSolution\ChessAppSolution.Shared\bin\Debug\net9.0\ChessAppSolution.Shared.pdb
+C:\Users\emil1\OneDrive\Documents\Chess\ChessAppSolution\ChessAppSolution.Shared\obj\Debug\net9.0\ChessAppSolution.Shared.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\emil1\OneDrive\Documents\Chess\ChessAppSolution\ChessAppSolution.Shared\obj\Debug\net9.0\ChessAppSolution.Shared.AssemblyInfoInputs.cache
+C:\Users\emil1\OneDrive\Documents\Chess\ChessAppSolution\ChessAppSolution.Shared\obj\Debug\net9.0\ChessAppSolution.Shared.AssemblyInfo.cs
+C:\Users\emil1\OneDrive\Documents\Chess\ChessAppSolution\ChessAppSolution.Shared\obj\Debug\net9.0\ChessAppSolution.Shared.csproj.CoreCompileInputs.cache
+C:\Users\emil1\OneDrive\Documents\Chess\ChessAppSolution\ChessAppSolution.Shared\obj\Debug\net9.0\ChessAppSolution.Shared.dll
+C:\Users\emil1\OneDrive\Documents\Chess\ChessAppSolution\ChessAppSolution.Shared\obj\Debug\net9.0\refint\ChessAppSolution.Shared.dll
+C:\Users\emil1\OneDrive\Documents\Chess\ChessAppSolution\ChessAppSolution.Shared\obj\Debug\net9.0\ChessAppSolution.Shared.pdb
+C:\Users\emil1\OneDrive\Documents\Chess\ChessAppSolution\ChessAppSolution.Shared\obj\Debug\net9.0\ref\ChessAppSolution.Shared.dll
