@@ -45,3 +45,4 @@ app.MapRazorComponents<App>()
     .AddAdditionalAssemblies(typeof(ChessAppSolution.Client._Imports).Assembly);
 
 app.Run();
+
