@@ -1,0 +1,5 @@
+{"protocol": "json", "version": 1}
+
+{"target": "JoinGame", "arguments": ["game1"], "type": 1}
+
+{"target": "SendMove", "arguments": ["game1", "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1", "e2", "e4"], "type": 1}.

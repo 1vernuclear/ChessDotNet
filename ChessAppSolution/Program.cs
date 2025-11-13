@@ -1,5 +1,6 @@
 using ChessAppSolution.Client.Pages;
 using ChessAppSolution.Components;
+using ChessAppSolution.Hubs;  // Add this using for ChessHub namespace
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -9,6 +10,9 @@ builder.Services.AddRazorComponents()
 
 // NEW: Add MVC controller services - this enables API endpoints in controllers for things like multiplayer or chess logic.
 builder.Services.AddControllers();
+
+// Add SignalR services
+builder.Services.AddSignalR();
 
 var app = builder.Build();
 
@@ -32,6 +36,9 @@ app.UseStaticFiles();  // Updated: UseStaticFiles() is the modern equivalent for
 
 // NEW: Map controller routes - this activates any controllers we add (e.g., in Controllers folder).
 app.MapControllers();
+
+// Map the hub (moved earlier for better pipeline order)
+app.MapHub<ChessHub>("/chessHub");
 
 app.MapRazorComponents<App>()
     .AddInteractiveWebAssemblyRenderMode()
