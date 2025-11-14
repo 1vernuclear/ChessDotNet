@@ -14,8 +14,10 @@
   </ItemGroup>
   <ImportGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
     <Import Project="$(NuGetPackageRoot)ponzianicomponents\0.5.1\buildTransitive\PonzianiComponents.props" Condition="Exists('$(NuGetPackageRoot)ponzianicomponents\0.5.1\buildTransitive\PonzianiComponents.props')" />
+    <Import Project="$(NuGetPackageRoot)microsoft.entityframeworkcore\9.0.0\buildTransitive\net8.0\Microsoft.EntityFrameworkCore.props" Condition="Exists('$(NuGetPackageRoot)microsoft.entityframeworkcore\9.0.0\buildTransitive\net8.0\Microsoft.EntityFrameworkCore.props')" />
   </ImportGroup>
   <PropertyGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
+    <PkgMicrosoft_EntityFrameworkCore_Tools Condition=" '$(PkgMicrosoft_EntityFrameworkCore_Tools)' == '' ">C:\Users\emil1\.nuget\packages\microsoft.entityframeworkcore.tools\10.0.0</PkgMicrosoft_EntityFrameworkCore_Tools>
     <PkgMicrosoft_AspNetCore_Components_WebAssembly_Server Condition=" '$(PkgMicrosoft_AspNetCore_Components_WebAssembly_Server)' == '' ">C:\Users\emil1\.nuget\packages\microsoft.aspnetcore.components.webassembly.server\9.0.11</PkgMicrosoft_AspNetCore_Components_WebAssembly_Server>
   </PropertyGroup>
 </Project>

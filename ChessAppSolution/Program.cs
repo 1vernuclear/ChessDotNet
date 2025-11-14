@@ -1,7 +1,8 @@
 using ChessAppSolution.Client.Pages;
 using ChessAppSolution.Components;
 using ChessAppSolution.Hubs;  // Add this using for ChessHub namespace
-
+using ChessAppSolution.Data;
+using Microsoft.EntityFrameworkCore;
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
@@ -13,6 +14,8 @@ builder.Services.AddControllers();
 
 // Add SignalR services
 builder.Services.AddSignalR();
+
+builder.Services.AddDbContext<ChessDbContext>(options => options.UseSqlite("Data Source=chess.db"));
 
 var app = builder.Build();
 
